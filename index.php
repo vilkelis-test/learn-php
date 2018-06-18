@@ -15,6 +15,7 @@
   <li><a href="/array.php">Массивы</a></li>
   <li><a href="/aarray.php">Ассоциированные массивы</a></li>
   <li><a href="/function-example.php">Функции</a></li>
+  <li><a href="/message-form.php">Форма</a></li>
  </ul> 	
 	
 </body>
