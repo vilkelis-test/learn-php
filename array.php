@@ -1,11 +1,5 @@
-<!DOCTYPE html>
-<html lang="ru">
-<head>
-	<meta charset="UTF-8">
-	<title>Document</title>
-</head>
-<body>
 <?php
+  $page_name = "Массивы";
   $books = array("451° по Фаренгейту",
 					"Шантарам",
 					"1984",
@@ -21,7 +15,15 @@
 					"Тень горы",
 					"Атлант расправил плечи");
 ?>
-	<h1>Книги</h1>
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<meta charset="UTF-8">
+	<title><?php echo $page_name?></title>
+</head>
+<body>
+
+	<h1><?php echo $page_name?></h1>
 	<ol>
 <?php
 for ($i = 0; $i < count($books); $i++ ) {

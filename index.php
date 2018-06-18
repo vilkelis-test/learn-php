@@ -2,7 +2,7 @@
 <html lang="ru">
 <head>
 	<meta charset="UTF-8">
-	<title>Document</title>
+	<title>Главная</title>
 </head>
 <body>
 	<h1>
@@ -13,6 +13,7 @@
  
  <ul>
   <li><a href="/array.php">Массивы</a></li>
+  <li><a href="/aarray.php">Ассоциированные массивы</a></li>
  </ul> 	
 	
 </body>
