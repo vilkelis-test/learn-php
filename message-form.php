@@ -1,8 +1,5 @@
 <?php
   $page_name = "Форма";
- 
- 
-
 ?>
 
 
@@ -16,9 +13,6 @@
 	<h1><?php echo $page_name?></h1>
  
 <?php 
- 
-
-
 if (!empty($_POST)) {
 
 	$message = "Сообщение : \n " 
@@ -36,8 +30,6 @@ if (!empty($_POST)) {
 		echo "Ошибка отправки письма";
 	}
 }
-
-
 ?>
 	<form action="" method="post">
   		<div>
@@ -53,9 +45,6 @@ if (!empty($_POST)) {
 			<button type="submit">Отправить</button>
 		</div>
 	</form>		
-  <?php 
-
-?>
 <div class="footer">
 	<a href="/index.php">Домой</a>	
 </div>
